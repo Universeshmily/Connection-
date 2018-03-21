@@ -35,3 +35,18 @@ public Object get(Object key);
 public Object put(Object key,Object value);
 public Object remove(Object key);
 public int size();返回集合中键值对的数量
+
+List
+
+List list = new linklist()
+String s1 = new String("hello")
+String s2 = new String("ni hao")
+Stirng s3 = new String("lvqiang")
+Integer i1 = new Integer(1)
+Integer i2 = new Integer(2)
+list.add(s1)
+list.add(s2)
+list.remove(s2)
+list.add(i1)
+list.add(i2)
+list.add(2,newInteger(3))
